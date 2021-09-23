@@ -1,0 +1,233 @@
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+   background-image:url(imagens/padoca.jpg);  background-repeat:no-repeat;
+}
+#borda_conteudo {
+  background-color: #FFF;
+  width: 640px;
+  border: 1px solid #A3A3A3;
+  margin: 5px auto;
+  background-image:url(imagens/fundo_pao.png); background-repeat: no-repeat;
+}
+#principal {
+  width: 600px;
+  margin: 20px auto;
+}
+#banner {
+  width: 600px;
+  height: 150px;
+  background-image:url(imagens/a.jpg); background-repeat:no-repeat,
+}
+
+#banner h1 {
+  color: #FFF;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 40px;
+  letter-spacing: -5px;
+  line-height: 0.7em;
+  margin: 0;
+}
+#titulo_2 {
+  margin-left: 20px;
+  color: #FFF700;
+}
+#titulo_3 {
+  margin-left: 40px;
+  color: #FF8800;
+}
+#navegacao {
+  background-image: url(imagens/bgmenu.gif);
+  background-repeat: repeat-x;
+  height: 48px;
+}
+#menu {
+  padding: 10px;
+  margin-left: 25px;
+}
+#menu a {
+  color: #FFF;
+  font-size: 18px;
+  padding: 0 14px;
+  text-decoration: none;
+}
+#menu a:hover {
+  text-decoration: underline;
+}
+#menu a#ativo {
+  text-decoration: underline;
+}
+
+
+#conteudo {
+  text-align: justify;
+  height: auto;
+  margin-top: 20px;
+
+  }
+
+h1 {
+  color: #0066FF;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0.2em 0;
+}
+
+h2{color: #FF960C;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0.2em 0;
+  }
+  
+#conteudo img {
+  border: 1px solid #F2F2F2;
+  padding: 5px;
+}
+
+#conteudo img.direita {
+  float: right;
+  margin-left: 10px;
+ 
+}
+
+#conteudo img.esquerda{
+  float: left;
+  margin-right: 10px;
+}
+
+#conteudo img.centro {
+  float: center;
+  margin-left: 80px;  
+}
+
+
+.limpa {
+  clear: both;
+}
+
+#rodape {
+  color: white;
+  font-size: 10px;
+  padding: 10px 30px;
+  background-color: #4F4F4F;
+}
+
+#rodape a {
+  color: white;
+  font-weight: bold;
+  
+}
+
+#rodape a:hover {
+  color: #FF8800;
+}
+
+.direita {
+  float: right;
+}
+
+#codigo_fonte {
+  width: 275px;
+  font-size: 0.9em;
+  background-color: #FDFFDB;
+  overflow: auto;
+  float: right;
+  margin: 0 0 20px 10px;
+  border: 1px solid #757575;
+  line-height: 23.2px;
+}
+
+/*----------------------------*/
+/*   Missão visão Valores     */
+/*----------------------------*/
+#bem_vindo{
+font-family:arial;
+font-size: 20px;
+font-weight:bold;	
+}
+
+#lista_ mvv{
+  width: 290px;
+  float: left;
+  text-align: right;
+  line-height: 28px;
+}
+#conteudo_vul{
+  list-style: url(imagens/seta_blue.png) inside;
+  font-weight: normal;
+  padding-left: 0;
+  
+}
+#conteudo_vul1{
+  list-style: url(imagens/seta_orange.png) inside;
+  font-weight: normal;
+  padding-left: 0px;
+}
+
+/*----------------------------*/
+/*     Página Produtos    */
+/*----------------------------*/
+#tecno {
+  color: #666064;
+  text-align: justify;
+  line-height: 1.8em;
+}
+#tecno p:first-line {
+  font-style: italic;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+#tecno p:first-letter {
+  font-size: 2em;
+  color: #FF7E00;
+}
+/*----------------------------*/
+/*       Página Contato       */
+/*----------------------------*/
+fieldset {
+  border: #949494 solid 1px;
+  width: 265px;
+  padding: 10px;
+  float: left;
+  margin-bottom: 20px;
+  color: #6E6E6E;
+}
+legend {
+  font-size: 1.4em;
+}
+label {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+form input, textarea {
+  font-size: 14px;
+  padding: 5px;
+  border: #919191 solid 1px;
+  width: 235px;
+  margin-left: 10px;
+}
+.botao {
+  border: 1px solid #949494;
+  width: 77px;
+  height: 30px;
+  font-size: 18px;
+  font-style: italic;
+  margin: 5px 10px;
+  background-color: #FFF;
+  color: #6E6E6E;
+  padding-top: 1px;
+}
+.botao:hover {
+  background-color: #FFFD8B;
+}
+fieldset .fone:before {
+  content: url(imagens/phone.gif) "  ";
+}
+#mapa {
+  height: 238px;
+}
